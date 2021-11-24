@@ -1,0 +1,11 @@
+﻿@model Doctor
+<h1>Detalles de @Model.Apellido</h1>
+
+<a asp-controller="Doctores"
+   asp-action="Index">
+    Volver al listado
+</a>
+
+<h3>Nº de Doctor  - @Model.DoctorNo</h3>
+<h3>Especialidad  - @Model.Especialidad</h3>
+<h3>Salario       - @Model.Salario</h3>
